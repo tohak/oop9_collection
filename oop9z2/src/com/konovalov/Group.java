@@ -1,6 +1,7 @@
 package com.konovalov;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import javax.print.attribute.standard.ReferenceUriSchemesSupported;
 
@@ -52,6 +53,10 @@ public class Group {
 			}
 		}
 		return false;
+	}
+	public void sort() {
+		this.list.sort(new SortFromLastname());
+		
 	}
 
 	@Override

@@ -16,6 +16,10 @@ public class Main {
 		
 		kn1.del(studentNew);
 		System.out.println("new group\n"+kn1);
+		
+		kn1.sort();
+		System.out.println();
+		System.out.println(kn1);
 	}
 
 }

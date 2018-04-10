@@ -18,7 +18,7 @@ public class Main {
 		System.out.println("new group\n"+kn1);
 		
 		kn1.sort();
-		System.out.println();
+		System.out.println("sort");
 		System.out.println(kn1);
 	}
 
